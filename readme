@@ -1,17 +1,53 @@
-
-
-# Hands on Git hub commands assignment
-
-This project is based on a YouTube video downloader with tutorials from [TechWithTim](https://www.youtube.com/TechWithTim). 
-First,  i cloned the project repository to my local machine using `git clone`,
-then navigate into the project directory with `cd \5-Python-Projects-For-Beginners-1> `.
-I then Fork the project to my GitHub account by clicking "Fork" on the original repository page.
-I created and switch to a new branch (`git checkout -b utube-video-downloader`) where you i add a new Python project file named `video_downloader.py` 
-`git add video_downloader.py`
-`git commit -m "Add video_downloader.py for YouTube video downloader"`
-I Merged the  changes into the `main` branch (`git checkout main`, `git merge utube-video-downloader`) and handle potential merge conflicts with `git status` and resolving conflicts manually in affected files.
- Lastly, I've created a basic portfolio page under `index.html` and used github pages to deploy it which you can visit [here](https://dackmatta.github.io/5-Python-Projects-For-Beginners/).
+Sure, here's a more presentable version of your README file:
 
 ---
 
-The assignment succinctly covered the open source project setup, branching, file addition, merging, conflict handling, and provides a link to the portfolio page hosted on GitHub Pages.
+# GitHub Commands Assignment: YouTube Video Downloader
+
+This project is a YouTube video downloader guided by tutorials from [TechWithTim](https://www.youtube.com/TechWithTim).
+
+## Getting Started
+
+1. Clone the project repository to your local machine:
+   ```
+   git clone <repository-url>
+   ```
+2. Navigate into the project directory:
+   ```
+   cd 5-Python-Projects-For-Beginners-1
+   ```
+
+## Forking and Branching
+
+1. Fork the project to your GitHub account by clicking "Fork" on the original repository page.
+2. Create and switch to a new branch for the YouTube video downloader:
+   ```
+   git checkout -b utube-video-downloader
+   ```
+
+## Adding New Features
+
+1. Add a new Python project file named `video_downloader.py`:
+   ```
+   git add video_downloader.py
+   git commit -m "Add video_downloader.py for YouTube video downloader"
+   ```
+
+## Merging Changes
+
+1. Merge the changes into the `main` branch and handle potential merge conflicts:
+   ```
+   git checkout main
+   git merge utube-video-downloader
+   git status
+   ```
+2. Resolve conflicts manually in affected files if necessary.
+
+## Deployment
+
+- Created a basic portfolio page under `index.html`.
+- Deployed using GitHub Pages, which you can visit [here](https://dackmatta.github.io/5-Python-Projects-For-Beginners/).
+
+---
+
+This README provides an overview of the open-source project setup, branching, file addition, merging, conflict handling, and includes a link to the portfolio page hosted on GitHub Pages.
