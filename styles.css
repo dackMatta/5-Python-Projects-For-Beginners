@@ -1,0 +1,211 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Header styling */
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+#header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+#header ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#header ul li {
+    margin: 0 1rem;
+    font-size: 1.2rem;
+}
+
+#header ul li:hover {
+    text-decoration: underline;
+}
+
+/* Sub-header styling */
+#sub-header {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+#sub-header h1 {
+    margin-bottom: 1rem;
+}
+
+#sub-header p {
+    font-size: 1.1rem;
+}
+
+#sub-header p span {
+    color: #777;
+    font-style: italic;
+}
+
+/* Services styling */
+#services {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    text-align: center;
+}
+
+#services h2 {
+    margin-bottom: 1rem;
+}
+
+#services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#services ul li {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+/* Projects styling */
+#projects {
+    background-color: #eaeaea;
+    padding: 2rem;
+    text-align: center;
+}
+
+#projects h2 {
+    margin-bottom: 1rem;
+}
+
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#projects ul li {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+#projects ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+#projects ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Contacts styling */
+#contacts {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+#contacts h2 {
+    margin-bottom: 1rem;
+}
+
+#contacts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contacts ul li {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+#contacts ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+#contacts ul li a:hover {
+    text-decoration: underline;
+}
+/* Services styling */
+#services {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    text-align: center;
+}
+
+#services h2 {
+    margin-bottom: 1rem;
+}
+
+#services ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust column width as needed */
+    grid-gap: 1rem;
+    justify-items: center;
+}
+
+#services ul li {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Hover effect */
+#services ul li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* Projects styling */
+#projects {
+    background-color: #eaeaea;
+    padding: 2rem;
+    text-align: center;
+}
+
+#projects h2 {
+    margin-bottom: 1rem;
+}
+
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust column width as needed */
+    grid-gap: 1rem;
+    justify-items: center;
+}
+
+#projects ul li {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer; /* Add cursor pointer */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Smooth transition */
+}
+
+/* Hover effect */
+#projects ul li:hover {
+    transform: translateY(-2px); /* Lift effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Stronger shadow */
+}
